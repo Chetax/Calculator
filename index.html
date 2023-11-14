@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid row" style="background-color: rgba(56, 185, 255, 0.53);height: 100vh;">
+ <div class="col-4 " style="display: flex; flex-direction: column; ">
+    <img class="img-fluid" src="./X - 6.png" style="width: 45vh;" >
+    <img class="img-fluid" src="./Frame 8.png" style="width: 15vh; margin-top: 35vh;margin-left: 10vw;">
+</div>
+<div class="col-3"></div>
+<div class="col-5 "  style=" margin-top: 12%;  width: 30vw; ">
+
+    <div class="text-center calci " style=" border: 5px solid yellow;  height: 67vh; background-color: rgb(2, 0, 0,0.9);border-radius: 11px;">
+            <input class="pt-4 pb-4  w-75 mt-5 mb-5" type="text" id="inputbox" readonly > 
+   <div class="row1 text-center d-flex align-items-center justify-content-center container-fluid" >
+    <div  id="AC"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer; border: 1px solid white; color:skyblue" >AC</div>
+    <div  id="tag_erase"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer; border: 1px solid white; color:skyblue" ><i class="fa-solid fa-delete-left"></i></div>
+    <div  id="tag_%"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer; border: 1px solid white; color:skyblue" >%</div>
+    <div  id="tag_/"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer; border: 1px solid white; color:skyblue" >/</div>
+   </div>  
+
+   <div class="row1 text-center d-flex align-items-center justify-content-center container-fluid" >
+    <div  id="tag_7"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >7</div>
+    <div  id="tag_8"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >8</div>
+    <div  id="tag_9"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >9</div>
+    <div  id="tag_X"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >X</div>
+   </div>       
+
+   <div class="row1 text-center d-flex align-items-center justify-content-center container-fluid" >
+    <div  id="tag_4"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >4</div>
+    <div  id="tag_5"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >5</div>
+    <div  id="tag_6"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >6</div>
+    <div  id="tagMin"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >-</div>
+   </div>    
+   
+    <div class="row1 text-center d-flex align-items-center justify-content-center container-fluid" >
+        <div  id="tag_3"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >3</div>
+        <div  id="tag_2"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >2</div>
+        <div  id="tag_1"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >1</div>
+        
+        <div  id="tag_plus"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >+</div>
+    </div>    
+
+    <div class="row1 text-center d-flex align-items-center justify-content-center container-fluid" >
+        <div  id="tag_0"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >0</div>
+        <div  id="tagdot"   class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer;border: 1px solid white; color:skyblue" >.</div>
+        <div  id="tag_equal"  class="div1  mb-2 m-2  d-flex align-items-center justify-content-center" style="cursor: pointer; width: 165px; border: 1px solid white; color:skyblue" >=</div>
+    </div>    
+
+
+</div>
+</div> 
+
+<script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+  crossorigin="anonymous"></script>
+</body>
+</html>
