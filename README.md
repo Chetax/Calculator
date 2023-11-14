@@ -1,6 +1,9 @@
 # Calculator
 
 This is a simple calculator web application created using HTML, CSS, and JavaScript.
+## ⭐ If You Like Than Just Give Star 😉
+![Screenshot 2023-11-04 171540](https://github.com/Chetax/Greddy-Aproach-And-Coin-Collection/assets/99749401/2be85d45-1ae0-4d51-87c8-d318fe534148)
+
 
 ## Features
 
